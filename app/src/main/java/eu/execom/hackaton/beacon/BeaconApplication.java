@@ -16,7 +16,7 @@ public class BeaconApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-
+        //hi stefania :D
         Gimbal.setApiKey(this, GIMBAL_API_KEY);
         GimbalLogConfig.setLogLevel(GimbalLogLevel.INFO);
         GimbalLogConfig.enableFileLogging(this);
