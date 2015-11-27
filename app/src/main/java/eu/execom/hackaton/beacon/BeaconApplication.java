@@ -28,13 +28,7 @@ public class BeaconApplication extends SugarApp {
         GimbalLogConfig.setLogLevel(GimbalLogLevel.INFO);
         GimbalLogConfig.enableFileLogging(this);
 
-        Article article = new Article("Article", "Article", 17.5, 30);
-        article.save();
 
-        List<Article> articles = Article.listAll(Article.class);
-
-        for (Article article1: articles)
-            Log.i("Article", article1.toString());
     }
 
 }
