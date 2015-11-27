@@ -46,3 +46,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 .idea/workspace.xml
+.idea
+.idea/libraries/spring_android_core_2_0_0_M1.xml
+local.properties
