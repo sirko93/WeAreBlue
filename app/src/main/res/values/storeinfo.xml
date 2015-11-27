@@ -1,0 +1,20 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<offer>
+    <productname>Great computer</productname>
+    <productdescription>good processor and a lot of ram</productdescription>
+    <productprice>500 euros</productprice>
+</offer>
+<discount>
+    <productname>Smartphone SP10</productname>
+    <productdescription>blue, big screen, good camera</productdescription>
+    <productdiscount>-30%</productdiscount>
+    <productprice>120 euros</productprice>
+</discount>
+<product>
+    <productname>shorts</productname>
+    <productcolor>green</productcolor>
+    <productquantity>4</productquantity>
+</product>
+</resources>
