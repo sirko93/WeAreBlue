@@ -1,12 +1,17 @@
 package eu.execom.hackaton.beacon.activity;
 
 import android.annotation.SuppressLint;
+import android.database.DataSetObserver;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ListAdapter;
+import android.widget.ListView;
 
 import eu.execom.hackaton.beacon.R;
 
@@ -19,6 +24,7 @@ public class ContentActivity extends AppCompatActivity {
      * Whether or not the system UI should be auto-hidden after
      * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
      */
+
     private static final boolean AUTO_HIDE = true;
 
     /**
@@ -90,6 +96,9 @@ public class ContentActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_content);
+        ListView lv = (ListView) findViewById(R.id.offersList);
+        //ArrayAdapter<>
+        //lv.setAdapter();
 
         mVisible = true;
         mControlsView = findViewById(R.id.fullscreen_content_controls);

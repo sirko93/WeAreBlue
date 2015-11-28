@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     @Click
     void button()
     {
-        Intent intent = new Intent(this, StartingActivity.class);
+        Intent intent = new Intent(this, ContentActivity.class);
         startActivity(intent);
 
     }
