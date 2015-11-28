@@ -45,3 +45,14 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+.idea/workspace.xml
+.idea
+.idea/libraries/spring_android_core_2_0_0_M1.xml
+local.properties
+local.properties
+.gradle
+.gradle/2.9/taskArtifacts/cache.properties.lock
+.gradle/2.9/taskArtifacts/taskArtifacts.bin
+.gradle/2.9/taskArtifacts/cache.properties.lock
+.idea/libraries/support_annotations_23_1_1.xml
+.gradle/2.9/taskArtifacts/taskArtifacts.bin

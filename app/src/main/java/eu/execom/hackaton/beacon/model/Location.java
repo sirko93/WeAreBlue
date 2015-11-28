@@ -28,7 +28,7 @@ public class Location {
         return String.format("%-25s %s", uuid, stringBuilder.toString());
     }
 
-    private double getProgressValue() {
+    public double getProgressValue() {
         if (signalStrength >= SIGNAL_STRENGTH_STRONG) {
             return 100;
         } else if (signalStrength <= SIGNAL_STRENGTH_WEAK) {

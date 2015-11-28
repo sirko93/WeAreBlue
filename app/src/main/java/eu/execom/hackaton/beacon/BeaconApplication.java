@@ -1,6 +1,7 @@
 package eu.execom.hackaton.beacon;
 
 import android.app.Application;
+import android.util.Log;
 
 import com.gimbal.android.Gimbal;
 import com.gimbal.logging.GimbalLogConfig;
@@ -8,6 +9,10 @@ import com.gimbal.logging.GimbalLogLevel;
 import com.orm.SugarApp;
 
 import org.androidannotations.annotations.EApplication;
+
+import java.util.List;
+
+import eu.execom.hackaton.beacon.model.Article;
 
 @EApplication
 public class BeaconApplication extends SugarApp {
@@ -22,6 +27,8 @@ public class BeaconApplication extends SugarApp {
         Gimbal.setApiKey(this, GIMBAL_API_KEY);
         GimbalLogConfig.setLogLevel(GimbalLogLevel.INFO);
         GimbalLogConfig.enableFileLogging(this);
+
+
     }
 
 }
